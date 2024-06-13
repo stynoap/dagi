@@ -16,7 +16,8 @@
 .tit-desc {
   margin-left: 10%;
   border-radius: 5px;
-  max-width: 70%;
+  max-width: 60%;
+  line-height: 2rem;
   /* background-color: rgba(0, 0, 0, 0.589);
   background-color: rgba(255, 255, 255, 0.589); */
 }
@@ -27,6 +28,51 @@
   text-align: center;
   font-weight: 900;
   letter-spacing: 6px;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.chiamaci {
+  background-color: #0A41AC; /* Blu brillante */
+  border: none;
+  color: #dfdfdf; /* Testo bianco per alto contrasto */
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Effetto di transizione per hover */
+  letter-spacing: 0.5rem;
+  font-size: 1.3rem;
+  padding: 15px 20px;
+  outline: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: inherit; /* Mantiene lo stesso colore anche in hover, focus e active */
+  text-decoration: none; /* Assicura che non compaia un sottolineato al hover o focus */
+  outline: none; /* Rimuove il contorno che appare in alcuni browser al focus */
+  background-color: transparent; /* Mantieni trasparente lo sfondo anche in stato hover */
+}
+
+a:visited {
+  color: inherit; /* Neutralizza il colore viola per i link visitati */
+}
+
+a{
+  outline: none;
+  text-decoration: none;
+}
+
+.chiamaci:hover {
+  background-color: #007bff; /* Un blu leggermente più scuro per l'hover */
 }
 
 .descrizione {
