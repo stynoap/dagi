@@ -23,3 +23,12 @@
     font-size: 1.5rem;
     line-height: 4rem;
   }
+
+  @media (max-width: 768px) {
+   .descrizione-chi-siamo{
+    font-size: 1.1rem;
+    line-height:1.5rem;
+    width: 100%;
+   }
+  }
+  

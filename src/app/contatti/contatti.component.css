@@ -33,3 +33,11 @@
   letter-spacing: 0.5;
   line-height: 2rem;
 }
+
+
+@media (max-width: 768px) {
+  .container-contatti{
+   font-size:small;
+   line-height: normal;
+  }
+ }

@@ -87,4 +87,22 @@ a{
     background-position-y: 0px;
     background-size: cover;
   }
+
+  .descrizione{
+    font-size: 1rem;
+  }
+
+  .tit-desc{
+    max-width: 80%;
+  }
+
+  .chiamaci{
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+
+  .titolo{
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
 }
