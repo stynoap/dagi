@@ -15,7 +15,6 @@
 
 .tit-desc {
   margin-left: 10%;
-  border-radius: 5px;
   max-width: 60%;
   line-height: 2rem;
   /* background-color: rgba(0, 0, 0, 0.589);
@@ -79,7 +78,7 @@ a{
   color: #dfdfdf;
   font-family: Roboto;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   letter-spacing: 2px;
 }
 
