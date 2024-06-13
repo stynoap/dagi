@@ -33,6 +33,14 @@
   text-align: center;
 }
 
+.anchor{
+  font-size: 1.4rem;
+  margin-left: 10px;
+  letter-spacing: 1px;
+  font-weight: 500;
+
+}
+
 @media (max-width: 768px) {
   .navbar-toggler {
     display: block; /* Mostra il pulsante hamburger */
@@ -62,12 +70,12 @@
     left: -0px;
     margin: auto;
     z-index: 1;
-    background-color: #e4d501ea;
+    background-color: #e4d501b9;
   }
 
   .nav-item {
     text-align: left;
-    padding: 30px;
+    padding: 55px;
   }
   .navbar-nav {
     flex-direction: column; /* Organizza i link in colonna */
