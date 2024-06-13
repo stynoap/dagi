@@ -1,0 +1,103 @@
+#i-nostri-lavori{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1D1E20;
+  }
+  
+  #titolo-lavori{
+    font-size: 2rem;
+    font-weight:800;
+    letter-spacing: 4px;
+    color:  #dfdfdf;
+    font-family: Roboto;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    padding: 20px;
+  }
+  
+  .slider-wrap{
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .slider-main{
+    position: absolute;
+    width: 200%;
+  
+  }
+  
+  .item{
+    display: inline-block;
+    border-radius: 5px;
+    width: 328px;
+    height: 500px;
+    background-color: black;
+    position: relative;
+    margin: 0 20.5px;
+  }
+  
+  .prev{
+    position: absolute;
+    left: 33px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .next{
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .item img{
+  width: 100%;
+  height: 100%;
+  
+  }
+
+
+/* mobile */
+
+  
+@media (max-width: 768px ) {
+    .item{
+        width: 92%;
+        
+    }
+
+    .prev{
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+      .next{
+        position: absolute;
+        right: -20px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+  
+  }
+  
+/* ipad */
+  @media (max-width: 992px) and (min-width: 768px) {
+    .item {
+        width: 43.5%;
+    }
+    .prev, .next {
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .prev {
+        left: 20px;
+    }
+    .next {
+        right: -20px;
+    }
+}

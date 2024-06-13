@@ -1,0 +1,80 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e4d301;
+  padding: 0 10px;
+}
+
+.navbar-brand {
+  height: 80px;
+  width: 15%;
+  background-image: url("Dagi-logo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+}
+
+.nav-item {
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .navbar-toggler {
+    display: block; /* Mostra il pulsante hamburger */
+  }
+
+  .navbar-collapse {
+    overflow: hidden;
+    transition: max-height 2s ease, opacity 0.5s ease;
+    max-height: 0; /* inizialmente il menu è nascosto */
+    opacity: 0; /* rende il menu completamente trasparente */
+    width: 100%;
+  }
+
+  /* .navbar-collapse.collapse.show {
+    display: block; 
+  } */
+
+  .show {
+    max-height: 600px; /* un valore sufficientemente alto per contenere tutti i link del menu */
+    opacity: 1;
+  }
+
+  .navbar-nav {
+    margin-left: 0px;
+    margin: 6px solid black;
+    position: absolute;
+    left: -0px;
+    margin: auto;
+    z-index: 1;
+    background-color: #e4d501ea;
+  }
+
+  .nav-item {
+    text-align: left;
+    padding: 30px;
+  }
+  .navbar-nav {
+    flex-direction: column; /* Organizza i link in colonna */
+    width: 100%;
+  }
+
+  .navbar-brand {
+    width: 40%; /* Imposta la larghezza al 100% sul mobile per centrare il logo */
+  }
+}

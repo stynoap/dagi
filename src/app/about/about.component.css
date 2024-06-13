@@ -1,0 +1,24 @@
+
+#chi-siamo{
+    background-color: #000000;
+    background-color: #E4D301;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    padding: 60px;
+    font-family: Roboto;
+    line-height: 1.7rem;
+  }
+  
+  .title-chi-siamo{
+    margin-top: 10px;
+  }
+  
+  .descrizione-chi-siamo{
+    width: 85%;
+    color: #161513;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: medium;
+  }

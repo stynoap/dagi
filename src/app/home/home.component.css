@@ -1,0 +1,154 @@
+/* sezione 1 */
+
+/* .banner-1{
+  position: relative;
+  height: 400px;
+  background-image: url(panoramica.jpg);
+  background-size: cover;
+  background-position-y: -180px;
+  background-repeat: no-repeat;
+}
+
+.tit-desc{
+  border-radius: 5px;
+  height: 110px;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.589);
+  position: relative;
+  top: 150px;
+  left: -200px;
+
+}
+
+.titolo{
+  color: #E4D301;
+  font-variant: small-caps;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.descrizione{
+  color: white;
+  font-variant: small-caps;
+  text-align: center;
+  letter-spacing: 1px;
+} */
+
+/* sezione i nostri lavori */
+
+#i-nostri-lavori{
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+#titolo-lavori, .title-chi-siamo{
+  font-size: 20px;
+  font-weight:600;
+  letter-spacing: 4px;
+  color: #E4D301;
+}
+
+.slider-wrap{
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.slider-main{
+  position: absolute;
+  width: 200%;
+
+}
+
+.item{
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  position: relative;
+  margin: 0 14.5px;
+}
+
+.prev{
+  position: absolute;
+  left: 33px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.next{
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.item img{
+width: 100%;
+height: 100%;
+
+}
+
+/* #chi-siamo{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-chi-siamo{
+  margin-top: 10px;
+}
+
+.descrizione-chi-siamo{
+  width: 50%;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: medium;
+} */
+/* sezione su i nostri valori */
+
+.title-valori{
+  letter-spacing: 3px;
+}
+
+#hanging-icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* sezione su i nostri contatti */
+
+#i-nostri-contatti{
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 3px;
+  color:#E4D301;
+
+}
+
+.title-contatti{
+  color: white;
+}
+
+.info{
+  color: white;
+}
+
+.container-contatti{
+  margin-top: 8px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+

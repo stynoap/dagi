@@ -1,0 +1,46 @@
+.banner-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 500px;
+  background-image: url(panoramica.jpg);
+  /* background-size: cover; */
+
+  background-position: center;
+  background-position-y: -180px;
+  background-repeat: no-repeat;
+  margin-bottom: 0px;
+}
+
+.tit-desc {
+  margin-left: 10%;
+  border-radius: 5px;
+  max-width: 70%;
+  /* background-color: rgba(0, 0, 0, 0.589);
+  background-color: rgba(255, 255, 255, 0.589); */
+}
+
+.titolo {
+  color: #e4d301;
+  font-family: Roboto;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 6px;
+}
+
+.descrizione {
+  color: white;
+  color: #dfdfdf;
+  font-family: Roboto;
+  text-align: center;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+  .banner-1 {
+    background-position-y: 0px;
+    background-size: cover;
+  }
+}

@@ -1,0 +1,45 @@
+<!-- <nav class="navbar navbar-expand-lg navbar-light">
+
+  <div class="navbar-brand">
+    <div class="logo"></div>
+  </div>
+
+
+    <div class="navbar-nav">
+      <a routerLink="/home" class="nav-item nav-link">Home</a>
+      <a href="#chi-siamo" class="nav-item nav-link" >Chi siamo</a>
+      <a  href="#i-nostri-lavori" class="nav-item nav-link">I nostri lavori</a>
+      <a routerLink="/contatti" class="nav-item nav-link">Contattaci</a>
+
+    </div>
+
+</nav> -->
+
+<nav class="navbar navbar-expand-lg navbar-light daginav">
+  <div class="navbar-brand">
+    <div class="logo"></div>
+  </div>
+
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarContent"
+    aria-controls="navbarContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+    (click)="isMenuOpen = !isMenuOpen"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse"[class.show]="isMenuOpen" id="navbarId">
+    <div class="navbar-nav">
+      <a routerLink="/home" class="nav-item nav-link">Home</a>
+      <a href="#chi-siamo" class="nav-item nav-link">Chi siamo</a>
+      <a href="#i-nostri-lavori" class="nav-item nav-link">I nostri lavori</a>
+      <a routerLink="/contatti" class="nav-item nav-link">Contattaci</a>
+    </div>
+  </div>
+
+  
+</nav>

@@ -1,0 +1,33 @@
+#i-nostri-contatti{
+    background-color:#1d1e20;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 3px;
+    color:#E4D301;
+    padding: 40px;
+  
+  }
+  
+  .title-contatti{
+    margin-bottom: 50px;
+    color:  #dfdfdf;
+    font-size: 2rem;
+  }
+  
+  .info{
+    color:  #dfdfdf;
+  }
+  
+  .container-contatti{
+    flex-wrap: wrap;
+    margin: 0 20px;
+    margin-top: 8px;
+    width: 89%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 90px;
+gap: 60px;
+  
+  }

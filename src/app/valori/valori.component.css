@@ -1,0 +1,9 @@
+.title-valori{
+    letter-spacing: 3px;
+  }
+  
+  #hanging-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
